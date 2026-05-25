@@ -13,7 +13,7 @@ import Checkout from './pages/Checkout';
 import Contact from './pages/Contact';
 import { Toaster } from 'react-hot-toast';
 
-axios.defaults.baseURL = 'http://localhost:8000/api';
+axios.defaults.baseURL = 'http://localhost:8001/api';
 
 function App() {
   const [user, setUser] = useState(null);
